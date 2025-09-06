@@ -250,12 +250,12 @@ header{
 
                     .socials{
                         justify-content: center;
-                        margin-left: 3rem;
+                        margin-left: 2rem;
                     }
                 }
 
                 .profile-img{
-                    width: 100%;
+                    max-width: 100%;
                     img{
                         
                     }
@@ -322,6 +322,7 @@ header{
         
         .about-box{
             flex-direction: column;
+            justify-content: center;
             padding: 0 2rem;
             margin-bottom: 3rem;
 
@@ -350,7 +351,6 @@ header{
     }
 
     .experience-grid{
-    
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
         gap: 25px;
@@ -395,6 +395,7 @@ header{
         }
 
         .experience-grid{
+            justify-content: center;
             padding: 0 1.5rem;
             margin-bottom: 4rem;
         }
@@ -538,13 +539,18 @@ header{
 
 
         .projects-grid{
+            max-width: 100%;
             flex-direction: column;
             align-items: center;
             padding: 0 4rem;
+            margin: 1rem;
         }
 
         .projects-grid-item{
            height: auto;
+           .btn{
+            max-width: 100%;
+           }
             img{
                 max-width: 100%;
             }
