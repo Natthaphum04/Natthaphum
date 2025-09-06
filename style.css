@@ -155,7 +155,7 @@ header{
 }
 
 .profile .profile-info {
-  margin-left: 2rem;
+  margin-left: 5rem;
   max-width: 500px;
 }
 
@@ -491,15 +491,7 @@ header{
     border-radius: 50%; 
 }
 
-@media screen and (max-width: 768px) {
-    .education-item { 
-        flex-direction: column; 
-        text-align: center; 
-    }
-    .education-item img { 
-        height: 90px; 
-    }
-}
+
 
 
 .nav-link.active {
