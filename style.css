@@ -491,7 +491,11 @@ header{
     border-radius: 50%; 
 }
 
-
+@media screen and (max-width: 768px) {
+    .education-text p{
+        font-size: 0.9rem;
+    }
+}
 
 
 .nav-link.active {
