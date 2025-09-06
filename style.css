@@ -492,6 +492,10 @@ header{
 }
 
 @media screen and (max-width: 768px) {
+    .education-item img{
+        height: 100px; 
+    }
+    
     .education-text p{
         font-size: 0.9rem;
     }
